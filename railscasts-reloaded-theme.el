@@ -16,16 +16,19 @@
   "An Emacs port of the awesome Railscasts theme")
 
 (defvar railscasts-reloaded-colors-alist
-  `(("railscasts-bg"     . "#232323")
-    ("railscasts-fg"     . "#E6E1DC")
-    ("railscasts-brown"  . "#BC9357")
-    ("railscasts-blue"   . "#6D9CBD")
-    ("railscasts-green"  . "#A5C160")
-    ("railscasts-orange" . "#CC7733")
-    ("railscasts-yellow" . "#FFC66D")
-    ("railscasts-violet" . "#CFCFFF")
-    ("railscasts-red"    . "#DA4938")
-    ("railscasts-white"  . "#FFFFFF"))
+  `(("railscasts-bg"         . "#232323")
+    ("railscasts-fg"         . "#E6E1DC")
+    ("railscasts-bg-1"       . "#383838")
+    ("railscasts-bg-2"       . "#4e4e4e")
+    ("railscasts-brown"      . "#BC9357")
+    ("railscasts-blue"       . "#6D9CBD")
+    ("railscasts-green"      . "#A5C160")
+    ("railscasts-dark-green" . "#509E50")
+    ("railscasts-orange"     . "#CC7733")
+    ("railscasts-yellow"     . "#FFC66D")
+    ("railscasts-violet"     . "#CFCFFF")
+    ("railscasts-red"        . "#DA4938")
+    ("railscasts-white"      . "#FFFFFF"))
   "List of colors used in Railscasts Reloaded.")
 
 (defmacro railscasts-reloaded-with-color-variables (&rest body)
@@ -42,6 +45,8 @@
   'railscasts-reloaded
 
   `(default ((t (:foreground ,railscasts-fg :background ,railscasts-bg))))
+  `(hl-line ((t (:background ,railscasts-bg-1))))
+  `(region ((t (:background ,railscasts-bg-2))))
   ;;;; font-lock-faces
   `(font-lock-type-face ((t (:foreground ,railscasts-white))))
   `(font-lock-builtin-face ((t (:foreground ,railscasts-red))))
