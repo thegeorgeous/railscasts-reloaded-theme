@@ -24,7 +24,8 @@
     ("railscasts-orange" . "#CC7733")
     ("railscasts-yellow" . "#FFC66D")
     ("railscasts-violet" . "#CFCFFF")
-    ("railscasts-red"    . "#DA4938"))
+    ("railscasts-red"    . "#DA4938")
+    ("railscasts-white"  . "#FFFFFF"))
   "List of colors used in Railscasts Reloaded.")
 
 (defmacro railscasts-reloaded-with-color-variables (&rest body)
@@ -41,7 +42,16 @@
   'railscasts-reloaded
 
   `(default ((t (:foreground ,railscasts-fg :background ,railscasts-bg))))
+  ;;;; font-lock-faces
+  `(font-lock-type-face ((t (:foreground ,railscasts-white))))
+  `(font-lock-builtin-face ((t (:foreground ,railscasts-red))))
+  `(font-lock-constant-face ((t (:foreground ,railscasts-blue))))
+  `(font-lock-string-face ((t (:foreground ,railscasts-green))))
+  `(font-lock-keyword-face ((t (:foreground ,railscasts-orange))))
+  `(font-lock-variable-name-face ((t (:foreground ,railscasts-violet))))
+  `(font-lock-function-name-face ((t (:foreground ,railscasts-yellow))))
   `(font-lock-comment-face ((t (:foreground ,railscasts-brown))))))
-(provide 'railscasts-reloaded)
 
-;;; railscasts-reloaded.el ends here
+(provide 'railscasts-reloaded-theme)
+
+;;; railscasts-reloaded-theme.el ends here
