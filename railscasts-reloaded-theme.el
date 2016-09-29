@@ -57,6 +57,13 @@
   `(font-lock-function-name-face ((t (:foreground ,railscasts-yellow))))
   `(font-lock-comment-face ((t (:foreground ,railscasts-brown))))))
 
+(railscasts-reloaded-with-color-variables
+  (custom-theme-set-variables
+   'railscasts-reloaded
+;;;;; fill-column-indicator
+   `(fci-rule-color ,railscasts-bg-2)
+   ))
+
 (provide 'railscasts-reloaded-theme)
 
 ;;; railscasts-reloaded-theme.el ends here
