@@ -28,7 +28,10 @@
     ("railscasts-yellow"     . "#FFC66D")
     ("railscasts-violet"     . "#CFCFFF")
     ("railscasts-red"        . "#DA4938")
-    ("railscasts-white"      . "#FFFFFF"))
+    ("railscasts-red-1"      . "#DD5B4B")
+    ("railscasts-white"      . "#FFFFFF")
+    ("railscasts-black"      . "#000000")
+    ("railscasts-silver"     . "#AAAAAA"))
   "List of colors used in Railscasts Reloaded.")
 
 (defmacro railscasts-reloaded-with-color-variables (&rest body)
@@ -55,7 +58,18 @@
   `(font-lock-keyword-face ((t (:foreground ,railscasts-orange))))
   `(font-lock-variable-name-face ((t (:foreground ,railscasts-violet))))
   `(font-lock-function-name-face ((t (:foreground ,railscasts-yellow))))
-  `(font-lock-comment-face ((t (:foreground ,railscasts-brown))))))
+  `(font-lock-comment-face ((t (:foreground ,railscasts-brown))))
+
+  ;;;; modeline
+  `(mode-line ((t (:background ,railscasts-black :foreground ,railscasts-silver))))
+  `(mode-line-buffer-id ((t (:weight bold))))
+  `(mode-line-emphasis ((t (:weight bold))))
+  `(mode-line-inactive ((t (:background ,railscasts-bg-2))))
+
+  ;;;; smartparens-mode
+  `(sp-show-pair-mismatch-face ((t (:foreground ,railscasts-red-1 :background ,railscasts-bg-2 :weight bold))))
+  `(sp-show-pair-match-face ((t (:background ,railscasts-bg-2 :weight bold))))
+  ))
 
 (railscasts-reloaded-with-color-variables
   (custom-theme-set-variables
