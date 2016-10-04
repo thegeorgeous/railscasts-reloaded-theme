@@ -78,6 +78,6 @@
    `(fci-rule-color ,railscasts-bg-2)
    ))
 
-(provide 'railscasts-reloaded-theme)
+(provide-theme 'railscasts-reloaded-theme)
 
 ;;; railscasts-reloaded-theme.el ends here
