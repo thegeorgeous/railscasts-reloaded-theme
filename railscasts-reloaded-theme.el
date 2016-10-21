@@ -88,6 +88,13 @@
   `(helm-ff-executable ((t (:foreground ,railscasts-green :background ,railscasts-bg :weight normal))))
   `(helm-match ((t (:foreground ,railscasts-green))))
   `(helm-grep-match ((t (:foreground nil :background nil :inherit helm-match))))
+
+  ;;;; flycheck
+  `(flycheck-info
+    ((((supports :underline (:style wave)))
+      (:underline (:style wave :color ,railscasts-dark-green) :inherit unspecified))
+     (t (:foreground ,railscasts-dark-green :weight bold :underline t))))
+  `(flycheck-fringe-info ((t (:foreground ,railscasts-dark-green :weight bold))))
   ))
 
 (railscasts-reloaded-with-color-variables
