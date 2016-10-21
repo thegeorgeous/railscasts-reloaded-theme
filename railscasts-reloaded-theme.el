@@ -67,8 +67,25 @@
   `(mode-line-inactive ((t (:background ,railscasts-bg-2))))
 
   ;;;; smartparens-mode
-  `(sp-show-pair-mismatch-face ((t (:foreground ,railscasts-red-1 :background ,railscasts-bg-2 :weight bold))))
-  `(sp-show-pair-match-face ((t (:background ,railscasts-bg-2 :weight bold))))
+  `(sp-show-pair-mismatch-face ((t (:foreground ,railscasts-red-1 :background ,railscasts-brown :weight bold))))
+  `(sp-show-pair-match-face ((t (:background ,railscasts-brown :weight bold))))
+
+  ;;;; helm
+  `(helm-header ((t (:foreground ,railscasts-blue
+		     :background ,railscasts-bg-1
+		     :underline nil
+		     :box (:line-width 6 :color ,railscasts-bg)))))
+  `(helm-source-header ((t (:foreground ,railscasts-orange
+			    :background ,railscasts-bg
+			    :underline nil
+			    :weight bold
+			    :box (:line-width -1 :style released-button)))))
+  `(helm-selection ((t (:background ,railscasts-bg-2))))
+  `(helm-candidate-number ((t (:foreground ,railscasts-green :background ,railscasts-bg))))
+  `(helm-ff-directory ((t (:foreground ,railscasts-blue :background ,railscasts-bg :weight bold))))
+  `(helm-ff-file ((t (:foreground ,railscasts-fg :background ,railscasts-bg :weight normal))))
+  `(helm-ff-invalid-symlink ((t (:foreground ,railscasts-red-1 :background ,railscasts-bg :weight bold))))
+  `(helm-ff-executable ((t (:foreground ,railscasts-green :background ,railscasts-bg :weight normal))))
   ))
 
 (railscasts-reloaded-with-color-variables
@@ -78,6 +95,6 @@
    `(fci-rule-color ,railscasts-bg-2)
    ))
 
-(provide-theme 'railscasts-reloaded-theme)
+(provide-theme 'railscasts-reloaded)
 
 ;;; railscasts-reloaded-theme.el ends here
