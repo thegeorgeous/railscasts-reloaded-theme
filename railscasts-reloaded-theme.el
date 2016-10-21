@@ -95,6 +95,19 @@
       (:underline (:style wave :color ,railscasts-dark-green) :inherit unspecified))
      (t (:foreground ,railscasts-dark-green :weight bold :underline t))))
   `(flycheck-fringe-info ((t (:foreground ,railscasts-dark-green :weight bold))))
+
+  ;;;; company
+  `(company-tooltip ((t (:foreground ,railscasts-fg :background ,railscasts-bg-2))))
+  `(company-tooltip-annotation ((t (:foreground ,railscasts-orange :background ,railscasts-bg-2))))
+  `(company-tooltip-annotation-selection ((t (:foreground ,railscasts-orange :background ,railscasts-bg-1))))
+  `(company-tooltip-selection ((t (:foreground ,railscasts-fg :background ,railscasts-bg-1))))
+  `(company-tooltip-common ((t (:foreground ,railscasts-dark-green))))
+  `(company-tooltip-common-selection ((t (:foreground ,railscasts-green))))
+  `(company-tooltip-mouse ((t (:background ,railscasts-bg-1))))
+  `(company-scrollbar-fg ((t (:background ,railscasts-fg))))
+  `(company-scrollbar-bg ((t (:background ,railscasts-silver))))
+  `(company-preview ((t (:background ,railscasts-green))))
+  `(company-preview ((t (:foreground ,railscasts-green :background ,railscasts-bg-1))))
   ))
 
 (railscasts-reloaded-with-color-variables
