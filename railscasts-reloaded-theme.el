@@ -50,6 +50,8 @@
   `(default ((t (:foreground ,railscasts-fg :background ,railscasts-bg))))
   `(hl-line ((t (:background ,railscasts-bg-1))))
   `(region ((t (:background ,railscasts-bg-2))))
+  `(highlight ((t (:background ,railscasts-black))))
+
   ;;;; font-lock-faces
   `(font-lock-type-face ((t (:foreground ,railscasts-white))))
   `(font-lock-builtin-face ((t (:foreground ,railscasts-red))))
