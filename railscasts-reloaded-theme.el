@@ -69,8 +69,8 @@
   `(mode-line-inactive ((t (:background ,railscasts-bg-2))))
 
   ;;;; smartparens-mode
-  `(sp-show-pair-mismatch-face ((t (:foreground ,railscasts-red-1 :background ,railscasts-brown :weight bold))))
-  `(sp-show-pair-match-face ((t (:background ,railscasts-brown :weight bold))))
+  `(sp-show-pair-mismatch-face ((t (:foreground ,railscasts-red-1 :background ,railscasts-black :weight bold))))
+  `(sp-show-pair-match-face ((t (:background ,railscasts-black :weight bold))))
 
   ;;;; helm
   `(helm-header ((t (:foreground ,railscasts-blue
