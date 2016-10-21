@@ -86,6 +86,8 @@
   `(helm-ff-file ((t (:foreground ,railscasts-fg :background ,railscasts-bg :weight normal))))
   `(helm-ff-invalid-symlink ((t (:foreground ,railscasts-red-1 :background ,railscasts-bg :weight bold))))
   `(helm-ff-executable ((t (:foreground ,railscasts-green :background ,railscasts-bg :weight normal))))
+  `(helm-match ((t (:foreground ,railscasts-green))))
+  `(helm-grep-match ((t (:foreground nil :background nil :inherit helm-match))))
   ))
 
 (railscasts-reloaded-with-color-variables
