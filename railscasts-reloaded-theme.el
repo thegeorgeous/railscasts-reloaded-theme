@@ -116,7 +116,7 @@
   (custom-theme-set-variables
    'railscasts-reloaded
 ;;;;; fill-column-indicator
-   `(fci-rule-color ,railscasts-bg-2)
+   `(fci-rule-color ,railscasts-bg-1)
    ))
 
 (provide-theme 'railscasts-reloaded)
