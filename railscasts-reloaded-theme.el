@@ -122,6 +122,22 @@
   `(company-scrollbar-bg ((t (:background ,railscasts-silver))))
   `(company-preview ((t (:background ,railscasts-green))))
   `(company-preview ((t (:foreground ,railscasts-green :background ,railscasts-bg-1))))
+
+  ;;;; enh-ruby
+  `(enh-ruby-op-face ((t (:foreground ,railscasts-yellow))))
+
+  ;;;; erc
+  `(erc-default-face ((t (:foreground ,railscasts-fg))))
+  `(erc-keyword-face ((t (:foreground ,railscasts-blue :weight bold))))
+  `(erc-nick-default-face ((t (:foreground ,railscasts-yellow :weight bold))))
+  `(erc-current-nick-face ((t (:foreground ,railscasts-green :weight bold))))
+  `(erc-nick-msg-face ((t (:inherit erc-default-face))))
+  `(erc-notice-face ((t (:foreground ,railscasts-blue))))
+  `(erc-prompt-face ((t (:foreground ,railscasts-orange :background ,railscasts-bg))))
+  `(erc-timestamp-face ((t (:foreground ,railscasts-dark-green))))
+
+  ;;;;; eshell
+  `(eshell-prompt ((t (:foreground ,railscasts-yellow :weight bold))))
   ))
 
 (railscasts-reloaded-with-color-variables
