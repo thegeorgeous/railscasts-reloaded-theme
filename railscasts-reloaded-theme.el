@@ -131,6 +131,14 @@
    `(fci-rule-color ,railscasts-bg-1)
    ))
 
+;;;###autoload
+(and load-file-name
+    (boundp 'custom-theme-load-path)
+    (add-to-list 'custom-theme-load-path
+                 (file-name-as-directory
+                  (file-name-directory load-file-name))))
+;; Automatically add this theme to the load path
+
 (provide-theme 'railscasts-reloaded)
 
 ;;; railscasts-reloaded-theme.el ends here
