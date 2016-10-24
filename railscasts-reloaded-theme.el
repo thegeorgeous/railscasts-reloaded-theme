@@ -88,7 +88,13 @@
   `(helm-ff-file ((t (:foreground ,railscasts-fg :background ,railscasts-bg :weight normal))))
   `(helm-ff-invalid-symlink ((t (:foreground ,railscasts-red-1 :background ,railscasts-bg :weight bold))))
   `(helm-ff-executable ((t (:foreground ,railscasts-green :background ,railscasts-bg :weight normal))))
+  `(helm-buffer-process ((t (:foreground ,railscasts-green))))
+  `(helm-buffer-size ((t (:foreground ,railscasts-silver))))
   `(helm-match ((t (:foreground ,railscasts-green))))
+  `(helm-grep-file ((t (:foreground ,railscasts-blue :background ,railscasts-bg))))
+  `(helm-grep-finish ((t (:foreground ,railscasts-dark-green :background ,railscasts-bg))))
+  `(helm-grep-lineno ((t (:foreground ,railscasts-red-1 :background ,railscasts-bg))))
+  `(helm-grep-cmd-line ((t (:foreground ,railscasts-blue :background ,railscasts-bg))))
   `(helm-grep-match ((t (:foreground nil :background nil :inherit helm-match))))
 
   ;;;; flycheck
