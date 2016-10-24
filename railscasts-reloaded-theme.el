@@ -62,6 +62,12 @@
   `(font-lock-function-name-face ((t (:foreground ,railscasts-yellow))))
   `(font-lock-comment-face ((t (:foreground ,railscasts-brown))))
 
+  ;;;; package.el
+  `(package-name ((t (:foreground ,railscasts-yellow))))
+  `(package-status-installed ((t (:foreground ,railscasts-dark-green))))
+  `(package-status-dependency ((t (:foreground ,railscasts-green))))
+  `(package-description ((t (:foreground ,railscasts-fg))))
+
   ;;;; modeline
   `(mode-line ((t (:background ,railscasts-black :foreground ,railscasts-silver))))
   `(mode-line-buffer-id ((t (:weight bold))))
