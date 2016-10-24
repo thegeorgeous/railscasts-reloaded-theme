@@ -141,4 +141,7 @@
 
 (provide-theme 'railscasts-reloaded)
 
+;; Local Variables:
+;; no-byte-compile: t
+;; End:
 ;;; railscasts-reloaded-theme.el ends here
