@@ -17,7 +17,7 @@ $ git clone https://github.com/thegeorgeous/railscasts-reloaded-theme.git
 Then add this to your `init.el`:
 
 ``` shell
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/atom-one-dark-theme/")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/railscasts-reloaded-theme/")
 ```
 
 ## Configuration
