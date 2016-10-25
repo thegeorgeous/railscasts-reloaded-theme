@@ -26,6 +26,7 @@
     ("railscasts-dark-green" . "#509E50")
     ("railscasts-orange"     . "#CC7733")
     ("railscasts-yellow"     . "#FFC66D")
+    ("railscasts-yellow-1"   . "#FFD798")
     ("railscasts-violet"     . "#CFCFFF")
     ("railscasts-red"        . "#DA4938")
     ("railscasts-red-1"      . "#DD5B4B")
@@ -62,6 +63,7 @@
   `(font-lock-variable-name-face ((t (:foreground ,railscasts-violet))))
   `(font-lock-function-name-face ((t (:foreground ,railscasts-yellow))))
   `(font-lock-comment-face ((t (:foreground ,railscasts-brown))))
+  `(font-lock-warning-face ((t (:foreground ,railscasts-yellow-1))))
 
   ;;;; package.el
   `(package-name ((t (:foreground ,railscasts-yellow))))
