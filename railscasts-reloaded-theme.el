@@ -139,6 +139,11 @@
 
   ;;;;; eshell
   `(eshell-prompt ((t (:foreground ,railscasts-yellow :weight bold))))
+
+  ;;;;; magit
+  ;;;;;; references
+  `(magit-branch-local ((t (:foreground ,railscasts-blue))))
+  `(magit-branch-remote ((t (:foreground ,railscasts-dark-green))))
   ))
 
 (railscasts-reloaded-with-color-variables
