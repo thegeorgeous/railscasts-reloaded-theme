@@ -162,6 +162,12 @@
   `(magit-signature-good      ((t (:foreground ,railscasts-green))))
   `(magit-signature-bad       ((t (:inherit error))))
   `(magit-signature-untrusted ((t (:foreground ,railscasts-yellow))))
+
+  ;;;;; markdown-mode
+  `(markdown-header-face ((t (:foreground ,railscasts-orange))))
+  `(markdown-link-face ((t (:foreground ,railscasts-dark-green))))
+  `(markdown-inline-code-face ((t (:foreground ,railscasts-blue))))
+  `(markdown-pre-face ((t (:foreground ,railscasts-blue))))
   ))
 
 (railscasts-reloaded-with-color-variables
