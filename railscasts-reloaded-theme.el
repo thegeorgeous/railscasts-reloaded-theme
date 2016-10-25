@@ -141,6 +141,14 @@
   `(eshell-prompt ((t (:foreground ,railscasts-yellow :weight bold))))
 
   ;;;;; magit
+  ;;;;;; headings
+  `(magit-section-heading ((t (:foreground ,railscasts-orange :weight bold))))
+  ;;;;;; popup
+  `(magit-popup-heading ((t (:foreground ,railscasts-orange :weight bold))))
+  `(magit-popup-key ((t (:foreground ,railscasts-yellow :weight bold))))
+  `(magit-popup-argument ((t (:foreground ,railscasts-green :weight bold))))
+  `(magit-popup-disabled-argument ((t (:foreground ,railscasts-bg-2 :weight normal))))
+  `(magit-popup-option-value ((t (:foreground ,railscasts-green :weight bold))))
   ;;;;;; log
   `(magit-log-author    ((t (:foreground ,railscasts-orange))))
   `(magit-log-date      ((t (:foreground ,railscasts-silver))))
