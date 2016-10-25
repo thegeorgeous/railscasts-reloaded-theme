@@ -141,9 +141,17 @@
   `(eshell-prompt ((t (:foreground ,railscasts-yellow :weight bold))))
 
   ;;;;; magit
+  ;;;;;; log
+  `(magit-log-author    ((t (:foreground ,railscasts-orange))))
+  `(magit-log-date      ((t (:foreground ,railscasts-silver))))
+  `(magit-log-graph     ((t (:foreground ,railscasts-bg-1))))
   ;;;;;; references
   `(magit-branch-local ((t (:foreground ,railscasts-blue))))
   `(magit-branch-remote ((t (:foreground ,railscasts-dark-green))))
+  `(magit-branch-current ((t (:foreground ,railscasts-blue))))
+  `(magit-signature-good      ((t (:foreground ,railscasts-green))))
+  `(magit-signature-bad       ((t (:inherit error))))
+  `(magit-signature-untrusted ((t (:foreground ,railscasts-yellow))))
   ))
 
 (railscasts-reloaded-with-color-variables
