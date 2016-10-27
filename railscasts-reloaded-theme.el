@@ -18,6 +18,8 @@
 (defvar railscasts-reloaded-colors-alist
   `(("railscasts-bg"         . "#232323")
     ("railscasts-fg"         . "#E6E1DC")
+    ("railscasts-fg-1"       . "#f0edea")
+    ("railscasts-bg+1"       . "#161616")
     ("railscasts-bg-1"       . "#383838")
     ("railscasts-bg-2"       . "#4e4e4e")
     ("railscasts-brown"      . "#BC9357")
