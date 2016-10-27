@@ -64,7 +64,7 @@
   `(font-lock-constant-face ((t (:foreground ,railscasts-blue))))
   `(font-lock-string-face ((t (:foreground ,railscasts-green))))
   `(font-lock-keyword-face ((t (:foreground ,railscasts-orange))))
-  `(font-lock-variable-name-face ((t (:foreground ,railscasts-violet))))
+  `(font-lock-variable-name-face ((t (:foreground ,railscasts-lilac))))
   `(font-lock-function-name-face ((t (:foreground ,railscasts-yellow))))
   `(font-lock-comment-face ((t (:foreground ,railscasts-brown))))
   `(font-lock-warning-face ((t (:foreground ,railscasts-yellow-1))))
