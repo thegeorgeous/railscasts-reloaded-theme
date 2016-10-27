@@ -159,6 +159,13 @@
   `(magit-log-author    ((t (:foreground ,railscasts-orange))))
   `(magit-log-date      ((t (:foreground ,railscasts-silver))))
   `(magit-log-graph     ((t (:foreground ,railscasts-bg-1))))
+  ;;;;;; reflog
+  `(magit-reflog-commit ((t (:foreground ,railscasts-dark-green))))
+  `(magit-reflog-amend ((t (:foreground ,railscasts-magenta))))
+  `(magit-reflog-reset ((t (:foreground ,railscasts-red))))
+  `(magit-reflog-checkout ((t (:foreground ,railscasts-blue))))
+  `(magit-reflog-other ((t (:foreground ,railscasts-cyan))))
+
   ;;;;;; references
   `(magit-branch-local ((t (:foreground ,railscasts-blue))))
   `(magit-branch-remote ((t (:foreground ,railscasts-dark-green))))
