@@ -83,6 +83,11 @@
   `(mode-line-emphasis ((t (:weight bold))))
   `(mode-line-inactive ((t (:background ,railscasts-bg-2))))
 
+  ;;;; isearch
+  `(isearch ((t (:foreground ,railscasts-magenta :background ,railscasts-bg+1))))
+  `(isearch-fail ((t (:foreground ,railscasts-fg :background ,railscasts-red))))
+  `(lazy-highlight ((t (:foreground ,railscasts-magenta :background ,railscasts-bg+1))))
+
   ;;;; smartparens-mode
   `(sp-show-pair-mismatch-face ((t (:foreground ,railscasts-red-1 :background ,railscasts-black :weight bold))))
   `(sp-show-pair-match-face ((t (:background ,railscasts-black :weight bold))))
