@@ -53,6 +53,7 @@
   `(region ((t (:background ,railscasts-bg-2))))
   `(highlight ((t (:background ,railscasts-black))))
   `(error ((t (:foreground ,railscasts-red-1))))
+  `(minibuffer-prompt ((t (:foreground ,railscasts-yellow-1))))
 
   ;;;; font-lock-faces
   `(font-lock-type-face ((t (:foreground ,railscasts-white))))
