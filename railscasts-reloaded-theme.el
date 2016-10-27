@@ -149,6 +149,7 @@
   `(eshell-prompt ((t (:foreground ,railscasts-yellow :weight bold))))
 
   ;;;;; magit
+  `(magit-tag ((t (:foreground ,railscasts-yellow :weight bold))))
   ;;;;;; headings
   `(magit-section-heading ((t (:foreground ,railscasts-orange :weight bold))))
   ;;;;;; popup
@@ -156,7 +157,7 @@
   `(magit-popup-key ((t (:foreground ,railscasts-yellow :weight bold))))
   `(magit-popup-argument ((t (:foreground ,railscasts-green :weight bold))))
   `(magit-popup-disabled-argument ((t (:foreground ,railscasts-bg-2 :weight normal))))
-  `(magit-popup-option-value ((t (:foreground ,railscasts-green :weight bold))))
+  `(magit-popup-option-value ((t (:foreground ,railscasts-cyan :weight bold))))
   ;;;;;; log
   `(magit-log-author    ((t (:foreground ,railscasts-orange))))
   `(magit-log-date      ((t (:foreground ,railscasts-silver))))
@@ -167,15 +168,16 @@
   `(magit-reflog-reset ((t (:foreground ,railscasts-red))))
   `(magit-reflog-checkout ((t (:foreground ,railscasts-blue))))
   `(magit-reflog-other ((t (:foreground ,railscasts-cyan))))
-
   ;;;;;; references
   `(magit-branch-local ((t (:foreground ,railscasts-blue))))
   `(magit-branch-remote ((t (:foreground ,railscasts-dark-green))))
-  `(magit-branch-current ((t (:foreground ,railscasts-blue))))
+  `(magit-branch-current ((t (:foreground ,railscasts-cyan))))
   `(magit-signature-good      ((t (:foreground ,railscasts-green))))
   `(magit-signature-bad       ((t (:inherit error))))
   `(magit-signature-untrusted ((t (:foreground ,railscasts-yellow))))
-
+  ;;;; blame
+  `(magit-blame-heading ((t (:foreground ,railscasts-fg-1 :background ,railscasts-bg-1))))
+  `(magit-blame-name ((t (:foreground ,railscasts-magenta :background ,railscasts-bg-1))))
   ;;;;; markdown-mode
   `(markdown-header-face ((t (:foreground ,railscasts-orange))))
   `(markdown-link-face ((t (:foreground ,railscasts-dark-green))))
