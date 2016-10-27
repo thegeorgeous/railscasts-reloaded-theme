@@ -61,7 +61,7 @@
   `(minibuffer-prompt ((t (:foreground ,railscasts-yellow-1))))
 
   ;;;; font-lock-faces
-  `(font-lock-type-face ((t (:foreground ,railscasts-white))))
+  `(font-lock-type-face ((t (:foreground ,railscasts-cyan))))
   `(font-lock-builtin-face ((t (:foreground ,railscasts-red))))
   `(font-lock-constant-face ((t (:foreground ,railscasts-blue))))
   `(font-lock-string-face ((t (:foreground ,railscasts-green))))
