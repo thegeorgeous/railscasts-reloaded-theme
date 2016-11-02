@@ -4,16 +4,16 @@
 ;;
 ;; Author: George Thomas <iamgeorgethomas@gmail.com>
 ;; URL: https://github.com/thegeorgeous/railscasts-reloaded-theme
-;; Version: 0.1.0
+;; Version: 1.0.0
 ;;
 ;;; Commentary:
 ;;
-;; An Emacs port of the awesome Railscasts theme as used by Ryan Bates
+;; The awesome Railscasts theme as used by Ryan Bates
 ;;
 ;;; Code:
 
 (deftheme railscasts-reloaded
-  "An Emacs port of the awesome Railscasts theme")
+  "The awesome Railscasts theme")
 
 (defvar railscasts-reloaded-colors-alist
   `(("railscasts-bg"         . "#232323")
