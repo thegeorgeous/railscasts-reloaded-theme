@@ -1,6 +1,7 @@
 # Railscasts Reloaded Theme for Emacs
 
 [![Melpa Status](http://melpa.milkbox.net/packages/railscasts-reloaded-theme-badge.svg)](http://melpa.milkbox.net/#/railscasts-reloaded-theme)
+[![MELPA](http://melpa-stable.milkbox.net/packages/railscasts-reloaded-theme-badge.svg)](http://melpa-stable.milkbox.net/#/railscasts-reloaded-theme)
 
 This is a port of Ryan Bates's Textmate/vim theme. The original themes can be
 found [here](http://railscasts.com/about)
@@ -8,7 +9,11 @@ found [here](http://railscasts.com/about)
 ## Installation
 
 ### MELPA
-Use install package to install the theme
+Railscasts Reloaded is available in both [MELPA Stable](http://stable.melpa.org)
+and [MELPA](http://melpa.org).
+
+Use `package-install` to install the theme
+
 <kbd>M-x</kbd> `package-install railscasts-reloaded-theme`
 
 You can also use [use-package](https://github.com/jwiegley/use-package)
@@ -16,8 +21,8 @@ You can also use [use-package](https://github.com/jwiegley/use-package)
 ``` emacs-lisp
 (use-package railscasts-reloaded-theme
 	:ensure t
-	:config
-	(load-theme 'railscasts-reloaded'))
+	:init
+	(load-theme 'railscasts-reloaded' t))
 ```
 
 ### Manual
@@ -31,8 +36,9 @@ $ git clone https://github.com/thegeorgeous/railscasts-reloaded-theme.git
 
 Then add this to your `init.el`:
 
-``` shell
+``` emacs-lisp
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/railscasts-reloaded-theme/")
+(load-theme 'railscasts-reloaded' t)
 ```
 
 ## Configuration
@@ -44,7 +50,7 @@ Load the theme with:
 Or you can add this to your `init.el`
 
 ``` emacs-lisp
-(load-theme `railscasts-reloaded t)
+(load-theme 'railscasts-reloaded' t)
 ```
 
 ## Screenshots
