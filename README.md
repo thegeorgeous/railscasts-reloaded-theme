@@ -54,8 +54,8 @@ Or you can add this to your `init.el`
 ```
 
 ## Screenshots
-![Ruby code](https://cloud.githubusercontent.com/assets/1572403/19900204/b4de482c-a088-11e6-90d3-7a69a6d33ff0.png)
-![Helm](https://cloud.githubusercontent.com/assets/1572403/19900402/609f6d58-a089-11e6-912a-86f992e139fe.png)
+![Ruby code](https://cloud.githubusercontent.com/assets/1572403/19941425/0bb6ff72-a156-11e6-969f-ae0ee02884b5.png)
+![Helm](https://cloud.githubusercontent.com/assets/1572403/19941509/5f115bf4-a156-11e6-8906-06eb190b25cf.png)
 
 ## Contributing
 This is a work in progress and a lot of modes are unsupported. If you want a
