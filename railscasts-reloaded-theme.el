@@ -75,6 +75,7 @@
   `(package-name ((t (:foreground ,railscasts-yellow))))
   `(package-status-installed ((t (:foreground ,railscasts-dark-green))))
   `(package-status-dependency ((t (:foreground ,railscasts-green))))
+  `(package-status-built-in ((t (:foreground ,railscasts-red))))
   `(package-description ((t (:foreground ,railscasts-orange))))
 
   ;;;; modeline
