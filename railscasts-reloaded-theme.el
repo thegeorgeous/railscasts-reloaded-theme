@@ -184,11 +184,26 @@
   ;;;; blame
   `(magit-blame-heading ((t (:foreground ,railscasts-fg-1 :background ,railscasts-bg-1))))
   `(magit-blame-name ((t (:foreground ,railscasts-magenta :background ,railscasts-bg-1))))
+
   ;;;;; markdown-mode
   `(markdown-header-face ((t (:foreground ,railscasts-orange))))
   `(markdown-link-face ((t (:foreground ,railscasts-dark-green))))
   `(markdown-inline-code-face ((t (:foreground ,railscasts-blue))))
   `(markdown-pre-face ((t (:foreground ,railscasts-blue))))
+
+  ;;;;; org-mode
+  `(org-todo ((t (:foreground ,railscasts-red))))
+  `(org-done ((t (:foreground ,railscasts-dark-green))))
+  `(org-level-1 ((t (:foreground ,railscasts-orange))))
+  `(org-level-2 ((t (:foreground ,railscasts-yellow))))
+  `(org-level-3 ((t (:foreground ,railscasts-green))))
+  `(org-level-4 ((t (:foreground ,railscasts-blue))))
+  `(org-level-5 ((t (:foreground ,railscasts-lilac))))
+  `(org-level-6 ((t (:foreground ,railscasts-red-1))))
+  `(org-level-7 ((t (:foreground ,railscasts-cyan))))
+  `(org-level-8 ((t (:foreground ,railscasts-white))))
+  `(org-table ((t (:foreground ,railscasts-brown))))
+  `(org-date ((t (:foreground ,railscasts-silver))))
   ))
 
 (railscasts-reloaded-with-color-variables
