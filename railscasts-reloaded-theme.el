@@ -138,6 +138,10 @@
   `(company-preview ((t (:background ,railscasts-green))))
   `(company-preview ((t (:foreground ,railscasts-green :background ,railscasts-bg-1))))
 
+  ;;;; auto-complete
+  `(ac-candidate-face ((t (:foreground ,railscasts-fg :background ,railscasts-bg-2 ))))
+  `(ac-selection-face ((t ( :foreground ,railscasts-fg :background ,railscasts-orange))))
+
   ;;;; enh-ruby
   `(enh-ruby-op-face ((t (:foreground ,railscasts-yellow))))
 
