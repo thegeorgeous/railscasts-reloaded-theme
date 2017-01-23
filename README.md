@@ -22,7 +22,7 @@ You can also use [use-package](https://github.com/jwiegley/use-package)
 (use-package railscasts-reloaded-theme
 	:ensure t
 	:init
-	(load-theme 'railscasts-reloaded' t))
+	(load-theme 'railscasts-reloaded t))
 ```
 
 ### Manual
@@ -38,7 +38,7 @@ Then add this to your `init.el`:
 
 ``` emacs-lisp
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/railscasts-reloaded-theme/")
-(load-theme 'railscasts-reloaded' t)
+(load-theme 'railscasts-reloaded t)
 ```
 
 ## Configuration
@@ -50,7 +50,7 @@ Load the theme with:
 Or you can add this to your `init.el`
 
 ``` emacs-lisp
-(load-theme 'railscasts-reloaded' t)
+(load-theme 'railscasts-reloaded t)
 ```
 
 ## Screenshots
