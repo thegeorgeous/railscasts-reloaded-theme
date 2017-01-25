@@ -198,8 +198,8 @@
   ;;;;; org-mode
   `(org-todo ((t (:foreground ,railscasts-red))))
   `(org-done ((t (:foreground ,railscasts-dark-green))))
-  `(org-level-1 ((t (:foreground ,railscasts-orange))))
-  `(org-level-2 ((t (:foreground ,railscasts-yellow))))
+  `(org-level-1 ((t (:foreground ,railscasts-orange :height 160))))
+  `(org-level-2 ((t (:foreground ,railscasts-yellow :height 140))))
   `(org-level-3 ((t (:foreground ,railscasts-green))))
   `(org-level-4 ((t (:foreground ,railscasts-blue))))
   `(org-level-5 ((t (:foreground ,railscasts-lilac))))
@@ -208,6 +208,8 @@
   `(org-level-8 ((t (:foreground ,railscasts-white))))
   `(org-table ((t (:foreground ,railscasts-brown))))
   `(org-date ((t (:foreground ,railscasts-silver))))
+  `(org-link ((t (:foreground ,railscasts-cyan))))
+  `(org-tag ((t (:foreground ,railscasts-magenta))))
   ))
 
 (railscasts-reloaded-with-color-variables
