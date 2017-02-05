@@ -59,6 +59,7 @@
   `(highlight ((t (:background ,railscasts-black))))
   `(error ((t (:foreground ,railscasts-red-1))))
   `(minibuffer-prompt ((t (:foreground ,railscasts-yellow-1))))
+  `(fringe ((t (:background ,railscasts-bg))))
   `(linum ((t (:foreground ,railscasts-bg-2))))
 
   ;;;; font-lock-faces
