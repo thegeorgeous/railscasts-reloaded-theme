@@ -4,7 +4,7 @@
 ;;
 ;; Author: George Thomas <iamgeorgethomas@gmail.com>
 ;; URL: https://github.com/thegeorgeous/railscasts-reloaded-theme
-;; Version: 1.0.0
+;; Version: 1.5.0
 ;;
 ;;; Commentary:
 ;;
