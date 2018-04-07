@@ -84,6 +84,7 @@
   `(font-lock-variable-name-face ((t (:foreground ,railscasts-lilac))))
   `(font-lock-function-name-face ((t (:foreground ,railscasts-yellow))))
   `(font-lock-comment-face ((t (:foreground ,railscasts-brown))))
+  `(font-lock-comment-delimiter-face ((t (:foreground ,railscasts-brown))))
   `(font-lock-warning-face ((t (:foreground ,railscasts-yellow-1))))
 
   ;;;; package.el
