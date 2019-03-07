@@ -179,6 +179,10 @@
   ;;;;; eshell
   `(eshell-prompt ((t (:foreground ,railscasts-yellow :weight bold))))
 
+  ;;;;; js-2
+  `(js2-object-property ((t (:foreground ,railscasts-red))))
+  `(js2-function-call ((t (:foreground ,railscasts-blue))))
+
   ;;;;; magit
   `(magit-tag ((t (:foreground ,railscasts-yellow :weight bold))))
   ;;;;;; headings
