@@ -183,6 +183,11 @@
   `(js2-object-property ((t (:foreground ,railscasts-red))))
   `(js2-function-call ((t (:foreground ,railscasts-blue))))
 
+  ;;;;; rjsx
+  `(rjsx-tag ((t (:foreground ,railscasts-magenta))))
+  `(rjsx-attr ((t (:foreground ,railscasts-lilac))))
+  `(rjsx-tag-bracket-face ((t (:foreground ,railscasts-fg-1))))
+
   ;;;;; magit
   `(magit-tag ((t (:foreground ,railscasts-yellow :weight bold))))
   ;;;;;; headings
