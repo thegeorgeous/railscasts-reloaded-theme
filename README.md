@@ -1,7 +1,7 @@
 # Railscasts Reloaded Theme for Emacs
 
-[![Melpa Status](http://melpa.milkbox.net/packages/railscasts-reloaded-theme-badge.svg)](http://melpa.milkbox.net/#/railscasts-reloaded-theme)
-[![MELPA](http://melpa-stable.milkbox.net/packages/railscasts-reloaded-theme-badge.svg)](http://melpa-stable.milkbox.net/#/railscasts-reloaded-theme)
+[![Melpa Status](https://melpa.org/packages/railscasts-reloaded-theme-badge.svg)](https://melpa.org/#/railscasts-reloaded-theme)
+[![MELPA](https://stable.melpa.org/packages/railscasts-reloaded-theme-badge.svg)](https://stable.melpa.org/#/railscasts-reloaded-theme)
 
 This is a port of Ryan Bates's Textmate/vim theme. The original themes can be
 found [here](http://railscasts.com/about)
